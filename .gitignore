@@ -1,0 +1,45 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore built or compiled files
+dist/
+build/
+out/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore client-specific files
+/client/node_modules/
+/client/dist/
+/client/logs
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+/client/pnpm-debug.log*
+/client/lerna-debug.log*
+# Ignore server-specific files
+/server/node_modules/
+/server/build/
+/server/out/
+/server/logs
+/server/npm-debug.log*
+/server/yarn-debug.log*
+/server/yarn-error.log*
+/server/pnpm-debug.log*
+/server/lerna-debug.log*
+# Ignore logs and generated files
+logs/
+*.log
+*.log.*
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
